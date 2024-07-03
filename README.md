@@ -16,9 +16,8 @@ You’ll build a balanced BST in this assignment. Do not use duplicate values be
 
 ```
 Tip: If you would like to visualize your binary search tree, here is a #pretty_print method that a student wrote and shared on Discord:
-```
-```
- def pretty_print(self, node, prefix='', is_left=True):
+
+def pretty_print(self, node, prefix='', is_left=True):
     if node.right:
         self.pretty_print(node.right, f"{prefix}{'|  ' if is_left else '   '}", False)
     print(f"{prefix}{'└──' if is_left else '┌──'}{node.data}")
@@ -44,7 +43,7 @@ You may be tempted to implement these methods using the original input array, bu
 
 11. Write a #rebalance method which rebalances an unbalanced tree. Tip: You’ll want to use a traversal method to provide a new array to the #build_tree method.
 
-## Tie it all together
+### Tie it all together
 Write a driver script that does the following:
 
 1. Create a binary search tree from an array of random numbers (Array.new(15) { rand(1..100) })
