@@ -53,4 +53,7 @@ Write a driver script that does the following:
 5. Confirm that the tree is unbalanced by calling #balanced?
 6. Balance the tree by calling #rebalance
 7. Confirm that the tree is balanced by calling #balanced?
-8. Print out all elements in level, pre, post, and in order.
+9. Print out all elements in level, pre, post, and in order.
+
+## Not complete assignment
+    
